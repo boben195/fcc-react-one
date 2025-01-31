@@ -14,6 +14,7 @@ function App() {
         <li>Has well over 100K stars on GitHub</li>
         <li>Is maintained by META</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
+        <li>test</li>
       </ul>
       {/* <div>
         <a href="https://vite.dev" target="_blank">
