@@ -1,0 +1,22 @@
+.section-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 10px;
+
+}
+
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 10px 10px;
+    
+}
+
+.japan-img {
+    width: 275px;
+    height: 300px;
+    border-radius: 5%;
+} 

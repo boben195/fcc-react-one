@@ -2,17 +2,22 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
+import Header from "./components/Header";
+import Location from "./components/Location";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <img
-          className="header-img"
-          src="./vite-project/src/assets/icons8-google-scholar-50.png"
-          alt=""
-        />
-        <h1>my travel jornal</h1>
+      <div className="main-container">
+        <div className="container">
+          <img
+            className="header-img"
+            src="/src/assets/icons8-google-scholar-50.png"
+            alt=""
+          />
+          <Header />
+        </div>
+        <Location />
       </div>
       {/* <img src={reactLogo} />
       <h1>Fun facts about React</h1>
