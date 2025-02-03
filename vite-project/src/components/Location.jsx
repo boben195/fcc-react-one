@@ -6,7 +6,7 @@ const Location = () => {
       <img className="japan-img" src="/public/svg/japan.jpg" alt="japan" />
       <div className="location-container">
         <img
-          src="/svg/location.svg"
+          src="/public/svg/location.svg"
           alt="Location Icon"
           width="15"
           height="15"
@@ -20,6 +20,10 @@ const Location = () => {
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
           maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia cum sit
+          eius pariatur sequi sint?
         </p>
       </div>
     </div>
