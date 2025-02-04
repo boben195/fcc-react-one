@@ -11,12 +11,7 @@ const Location = () => {
           width="15"
           height="15"
         />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-          ipsam vel, odit et sunt esse, porro odio officia accusantium repellat
-          eum quidem quisquam doloribus architecto soluta consequuntur delectus
-          mollitia asperiores?
-        </p>
+
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
           maiores?
@@ -24,6 +19,12 @@ const Location = () => {
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia cum sit
           eius pariatur sequi sint?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          cupiditate suscipit culpa dicta officiis sunt asperiores dolor totam
+          quia, qui rem officia eveniet eum itaque nesciunt fuga eos incidunt!
+          Suscipit.
         </p>
       </div>
     </div>
