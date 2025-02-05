@@ -3,6 +3,13 @@ import "/src/modules/location.css";
 const Location = () => {
   return (
     <div className="section-container">
+      {/* <article className="lorny">
+        <div className="main-image-container">
+          <img className="main-image" src="/public/svg/japan.jpg" alt="" />
+        </div>
+        <span>Japan</span>
+        <a href="https://maps.app.goo.gl/KdjQLRzWFwArXPzB8">View on Google</a>
+      </article> */}
       <img className="japan-img" src="/public/svg/japan.jpg" alt="japan" />
       <div className="location-container">
         <img
