@@ -1,18 +1,18 @@
 import "/src/modules/location.css";
 
 const Location = () => {
-  // const hours = new Date().getHours();
-  // let timeOfDay;
+  const hours = new Date().getHours();
+  let timeOfDay;
 
-  // if (hours < 12) {
-  //   timeOfDay = "morning";
-  // } else if (hours >= 12 && hours < 17) {
-  //   timeOfDay = "afternoon";
-  // } else if (hours < 21) {
-  //   timeOfDay = "evening";
-  // } else {
-  //   timeOfDay = "night";
-  // }
+  if (hours < 12) {
+    timeOfDay = "morning";
+  } else if (hours >= 12 && hours < 17) {
+    timeOfDay = "afternoon";
+  } else if (hours < 21) {
+    timeOfDay = "evening";
+  } else {
+    timeOfDay = "night";
+  }
 
   return (
     <div className="section-container">
