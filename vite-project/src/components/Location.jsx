@@ -1,19 +1,6 @@
 import "/src/modules/location.css";
 
 const Location = () => {
-  const hours = new Date().getHours();
-  let timeOfDay;
-
-  if (hours < 12) {
-    timeOfDay = "morning";
-  } else if (hours >= 12 && hours < 17) {
-    timeOfDay = "afternoon";
-  } else if (hours < 21) {
-    timeOfDay = "evening";
-  } else {
-    timeOfDay = "night";
-  }
-
   return (
     <div className="section-container">
       <img className="japan-img" src="/public/svg/japan.jpg" alt="japan" />
