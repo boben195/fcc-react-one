@@ -1,0 +1,16 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-evenly;
+    width: 1000px; */
+    justify-content: space-around;
+    margin: 20px 20px;
+    padding: 10px 15px;
+    
+}
+
+.contact-item {
+    background-color: tan;
+    width: 420px;
+    margin: 10px;
+}

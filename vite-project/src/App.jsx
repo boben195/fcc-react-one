@@ -3,7 +3,7 @@
 // import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
-import Location from "./components/Location";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           />
           <Header />
         </div>
-        <Location />
+        <Contact />
       </div>
     </>
   );
