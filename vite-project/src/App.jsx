@@ -18,9 +18,6 @@ function App() {
           <Header />
         </div>
         <Contact />
-        <Contact />
-        <Contact />
-        <Contact />
       </div>
     </>
   );
